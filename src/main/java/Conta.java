@@ -1,4 +1,4 @@
-public class Conta {
+public abstract class Conta implements IConta {
 
     private int agencia;
     private int numero;
@@ -14,18 +14,6 @@ public class Conta {
 
     public double getSaldo() {
         return saldo;
-    }
-
-    public void sacar() {
-
-    }
-
-    public void depositar() {
-
-    }
-
-    public void transferir() {
-
     }
 
 }
